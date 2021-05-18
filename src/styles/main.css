@@ -1,0 +1,25 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "../../node_modules/@newlogic-digital/ui/src/styles/Utils/vars.css";
+@import "../../node_modules/@newlogic-digital/ui/src/styles/Utils/theme/main.css";
+@import "../../node_modules/@newlogic-digital/ui/src/styles/Utils/theme/vars.css";
+@import "../../node_modules/@newlogic-digital/ui/src/styles/Utils/default.css";
+@import "../../node_modules/@newlogic-digital/ui/src/styles/Utils/tailwind/gutters.css";
+@import "../../node_modules/@newlogic-digital/ui/src/styles/Ui/Progress.css";
+@import "../../node_modules/@newlogic-digital/ui/src/styles/Ui/Btn.css";
+@import "../../node_modules/@newlogic-digital/ui/src/icons/iconfont.css";
+@import "Libraries/NativeSlider.css";
+
+body {
+  margin: 0;
+  padding: 2rem;
+}
+
+[data-ratio="8/5"] {
+  aspect-ratio: 8 / 5;
+}
+
+img {
+  max-width: 100%;
+}
